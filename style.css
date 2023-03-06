@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image_one {
+  content: "";
+  background: url(./image/greg-rakozy-oMpAz-DN-9I-unsplash.jpg) no-repeat
+    center/cover fixed;
+  height: 100vh;
+}
+
+.name {
+  position: relative;
+  top: 20%;
+}
+
+div > h3 {
+  color: white;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+div > h1 {
+  color: rgba(255, 255, 255, 0.836);
+  font-size: 70px;
+  letter-spacing: 5px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+div > h5 {
+  color: white;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+h5 > .align {
+  margin-left: 15px;
+}
+
+.header {
+  max-height: 20vh;
+}
+
+header {
+  background-color: rgb(232, 226, 235);
+  padding: 10px 0;
+  position: sticky;
+}
+
+nav ul {
+  margin: 20px 20px;
+}
+
+ul > li {
+  display: inline-block;
+  margin: 0 2em;
+  font-size: large;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about_section {
+  min-height: calc(100vh-20vh);
+  background-color: rgb(224, 210, 230);
+  padding: 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+div .aboutme {
+  font-size: 25px;
+  padding: 40px 0 20px 30px;
+}
+
+p {
+  padding: 40px 10px 20px 30px;
+  font-size: 20px;
+}
+
+.aboutmeone {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  margin: 10px 10px 10px 20px;
+}
+
+h1:hover {
+  color: white;
+  transition: all ease-in-out 0.2ms;
+}
