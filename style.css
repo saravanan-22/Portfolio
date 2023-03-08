@@ -38,28 +38,29 @@ div > h5 {
   margin-bottom: 10px;
 }
 
-h5 > .align {
+h5 > .align,
+.align1 {
   margin-left: 15px;
 }
 
 .header {
-  max-height: 20vh;
+  position: sticky;
+  top: 0px;
 }
 
 header {
-  background-color: rgb(232, 226, 235);
-  padding: 10px 0;
-  position: sticky;
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(232, 232, 243);
 }
 
 nav ul {
-  margin: 20px 20px;
 }
 
 ul > li {
   display: inline-block;
   margin: 0 2em;
-  font-size: large;
+  font-size: 20px;
 }
 
 nav a {
@@ -71,7 +72,7 @@ nav a {
   min-height: calc(100vh-20vh);
   background-color: rgb(224, 210, 230);
   padding: 10px 10px;
-  margin: 10px 10px 10px 10px;
+  /* margin: 0px 10px 10px 10px; */
 }
 
 div .aboutme {
@@ -85,7 +86,7 @@ p {
 }
 
 .aboutmeone {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(40, 69, 75);
   width: 70%;
   margin: 10px 10px 10px 20px;
 }
@@ -93,4 +94,87 @@ p {
 h1:hover {
   color: white;
   transition: all ease-in-out 0.2ms;
+}
+
+.animation {
+  animation-name: my;
+  animation-duration: 4s;
+}
+
+@keyframes my {
+  0% {
+    transform: translateY(-200px);
+  }
+
+  25% {
+  }
+
+  50% {
+  }
+
+  75% {
+  }
+
+  100% {
+  }
+}
+
+.align {
+  animation-name: align;
+  animation-duration: 4s;
+}
+
+@keyframes align {
+  0% {
+    transform: translateY(300px);
+  }
+
+  25% {
+  }
+
+  50% {
+  }
+
+  75% {
+  }
+
+  100% {
+  }
+}
+
+.animate_pulse {
+  animation-duration: 4s;
+}
+
+h5 > .align1 {
+  color: rgb(247, 148, 50);
+}
+
+.align2 {
+  color: rgb(68, 68, 139);
+}
+
+.align3 {
+  color: rgb(18, 131, 8);
+}
+
+/* .align4 {
+  color: rgb(252, 155, 198);
+} */
+
+.align5 {
+  animation-name: align5;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+}
+
+@keyframes align5 {
+  0% {
+    transform: translateY(100px);
+  }
+
+  25% {
+    /* transform: translateY(-100px); */
+  }
 }
